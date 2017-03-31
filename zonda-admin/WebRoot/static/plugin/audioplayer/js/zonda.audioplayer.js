@@ -169,7 +169,7 @@
 			var music, target, audio, playBtn, currentTime, totalTime, currentVolume, totalVolume, quietVolume, currentTime_text, totalTime_text, cover, duration, musicItem, listSwitch;
 			var sign = false;
 			Public.ajax({
-				url : 'http://120.24.162.247/api/Music?id=' + options.music,
+				url : 'http://218.4.251.46/api/Music?id=' + options.music,
 				success : function(responseText) {
 					// 初始化
 					music = JSON.parse(responseText);
