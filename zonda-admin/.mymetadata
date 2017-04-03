@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="zonda-admin"
+  id="myeclipse.1448431892607"
+  context-root="/zonda-admin"
+  j2ee-spec="6.0"
+  archive="zonda-admin.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
