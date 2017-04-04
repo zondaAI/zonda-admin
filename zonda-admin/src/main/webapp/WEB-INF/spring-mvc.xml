@@ -8,7 +8,7 @@
 
 	<context:component-scan base-package="com.zonda.controller" />
 	<context:component-scan base-package="com.json" />
-	
+
 	<!--加入Spring Activiti-Modeler的运行配置 -->
 	<context:component-scan base-package="com.zonda.activiti.rest.editor" />
 	<context:component-scan base-package="com.zonda.activiti.rest.diagram" />
@@ -49,7 +49,7 @@
 	</bean>
 
 	<!-- 配置SpringMVC的消息转换器 -->
-	<!-- <mvc:annotation-driven>
+	<mvc:annotation-driven>
 		<mvc:message-converters register-defaults="true">
 			<bean class="org.springframework.http.converter.StringHttpMessageConverter">
 				<property name="supportedMediaTypes">
@@ -75,6 +75,6 @@
 				</property>
 			</bean>
 		</mvc:message-converters>
-	</mvc:annotation-driven> -->
+	</mvc:annotation-driven>
 
 </beans>

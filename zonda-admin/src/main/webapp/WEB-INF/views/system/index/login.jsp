@@ -102,14 +102,14 @@
 				<div class="form-actions">
 					<div style="width:86%;padding-left:8%;">
 
-						<div style="float: left;height: 26px;">
-							<i><img src="static/login/yan.png" style="height: 26px;" /></i>
+						<div style="float: left;height: 30px;">
+							<i><img src="static/login/yan.png" style="height: 30px;" /></i>
 						</div>
-						<div style="float: left;" class="codediv">
-							<input type="text" name="code" id="code" placeholder="请输入验证码" class="login_code" style="height:16px; padding-top:4px;" />
+						<div style="float: left; width: 30%" class="codediv">
+							<input type="text" name="code" id="code" placeholder="请输入验证码" class="login_code" style="width: 100%; padding-top:4px;" />
 						</div>
-						<div style="float: left;height: 26px;">
-							<i><img style="height:26px;" id="codeImg" alt="点击更换" title="点击更换" src="" /></i>
+						<div style="float: left;height: 30px;cursor: pointer;">
+							<i><img style="width:50px;height:30px;" id="codeImg" alt="点击更换" title="点击更换" src="" /></i>
 						</div>
 						<span class="pull-right" style="padding-right:3%;"><a href="javascript:quxiao();" class="btn btn-success">取消</a></span> <span class="pull-right"><a onclick="severCheck();" class="flip-link btn btn-info" id="to-recover">登录</a></span>
 					</div>
